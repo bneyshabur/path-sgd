@@ -108,8 +108,8 @@ def main():
                         help='stopping condtion based on the cross-entropy loss (default: 0.01)')
     parser.add_argument('--batchsize', default=64, type=int,
                         help='input batch size (default: 64)')
-    parser.add_argument('--learningrate', default=0.001, type=float,
-                        help='learning rate (default: 0.001)')
+    parser.add_argument('--learningrate', default=0.01, type=float,
+                        help='learning rate (default: 0.01)')
     parser.add_argument('--momentum', default=0.9, type=float,
                         help='momentum (default: 0.9)')
     args = parser.parse_args()
