@@ -23,7 +23,7 @@ class PathSGD:
                 if param.requires_grad:
                     param.pow_(2)
         data_ones = torch.ones(2, self.input_dim).cuda()
-        path_norm = self.model(data_ones).norm() ** 2
+        path_norm = 0.5 * self.model(data_ones).sum()
         path_norm.backward()
 
     # calculating the ratio of norm of gradient to the norm of Path-SGD updates. This ratio will be used to adjust the
