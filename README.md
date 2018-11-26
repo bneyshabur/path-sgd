@@ -4,7 +4,7 @@ This repository contains the code to train neural nets uising Path-SGD optimizat
 
 **[Path-SGD: Path-Normalized Optimization in Deep Neural Networks](http://arxiv.org/abs/1506.02617)**
 
-[Behnam Neyshabur](https://cs.nyu.edu/~behnam/), [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/), [Nathan Srebro](http://www.ttic.edu/srebro)
+[Behnam Neyshabur](https://www.neyshabur.net), [Ruslan Salakhutdinov](http://www.cs.cmu.edu/~rsalakhu/), [Nathan Srebro](http://www.ttic.edu/srebro)
 
 ## Usage
 1. Install *Python 3.6* and *PyTorch 0.4.1*.
